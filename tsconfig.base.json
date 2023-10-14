@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "feature/page/about": ["libs/feature/page/about/src/index.ts"],
-      "feature/page/footer": ["libs/feature/page/footer/src/index.ts"]
+      "feature/page/footer": ["libs/feature/page/footer/src/index.ts"],
+      "features/page/about": ["libs/features/page/about/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
