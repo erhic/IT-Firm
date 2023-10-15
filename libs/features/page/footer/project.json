@@ -1,7 +1,7 @@
 {
   "name": "features/page/footer",
-  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "features/page/footer/src",
+  "$schema": "../../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/features/page/footer/src",
   "prefix": "lib",
   "tags": [],
   "projectType": "library",
@@ -10,7 +10,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "features/page/footer/jest.config.ts",
+        "jestConfig": "libs/features/page/footer/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
@@ -25,8 +25,8 @@
       "outputs": ["{options.outputFile}"],
       "options": {
         "lintFilePatterns": [
-          "features/page/footer/**/*.ts",
-          "features/page/footer/**/*.html"
+          "libs/features/page/footer/**/*.ts",
+          "libs/features/page/footer/**/*.html"
         ]
       }
     }
