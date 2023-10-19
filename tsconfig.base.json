@@ -18,6 +18,7 @@
       "feature/page/about": ["libs/feature/page/about/src/index.ts"],
       "features/page/about": ["libs/features/page/about/src/index.ts"],
       "features/page/footer": ["libs/features/page/footer/src/index.ts"],
+      "features/page/images": ["features/page/images/src/index.ts"],
       "features/page/navbar": ["features/page/navbar/src/index.ts"]
     }
   },
