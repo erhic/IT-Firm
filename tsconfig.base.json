@@ -20,7 +20,10 @@
       "features/page/footer": ["libs/features/page/footer/src/index.ts"],
       "features/page/hero": ["libs/features/page/hero/src/index.ts"],
       "features/page/navbar": ["libs/features/page/navbar/src/index.ts"],
-      "features/page/projects": ["libs/features/page/projects/src/index.ts"]
+      "features/page/projects": ["libs/features/page/projects/src/index.ts"],
+      "features/page/testimonial": [
+        "libs/features/page/testimonial/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
